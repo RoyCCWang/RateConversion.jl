@@ -25,9 +25,10 @@ Random.seed!(25)
 #save_dir = "/home/roy/MEGAsync/outputs/NMR/experiments" # where to store the loaded experiment objects.
 
 target_name = "L-Serine"
+#target_name = "beta-D-glucose"
 
 experiment_full_path = "/home/roy/Documents/repo/NMRData/experiments_1D1H/NRC/NRC_4_amino_acid_mixture_Jan_2022/1" # where the Bruker experiment data folder is located.
-project_name = "NRC-Jan2022-serine" # project folder name within `save_dir` for this experiment.
+#project_name = "NRC-Jan2022-beta-glucose" # project folder name within `save_dir` for this experiment.
 
 solvent_ppm_guess = 4.7 # where the solvent's peak frequency might be. In units of ppm.
 solvent_window_ppm = 0.1 # This library will try to search for a resonance component +/- `solvent_window_ppm` about `solvent_ppm_guess`.
